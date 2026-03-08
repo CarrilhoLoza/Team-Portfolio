@@ -38,7 +38,10 @@ portfolio
     ├── joao.jpg
     ├── juan.jpg
     ├── lara.jpg
-    └── renan.jpg
+    ├── renan.jpg
+    ├── projeto1.jpg
+    ├── projeto2.jpg
+    └── projeto3.jpg
 ```
 
 ---
