@@ -12,20 +12,22 @@ body {
   background: linear-gradient(120deg, #0d6efd, #6610f2);
 }
 
-.service-card {
-  border: none;
-  transition: 0.3s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.service-card:hover {
-  transform: translateY(-10px);
-}
-
 .project-card {
   border: none;
   transition: 0.3s;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.project-card .card-body {
+  flex-grow: 1;
 }
 
 .project-card:hover {
@@ -38,15 +40,6 @@ body {
 
 .team-card {
   border: none;
-  transition: 0.3s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team-card:hover {
-  transform: translateY(-8px);
-}
-
-.team-card {
   background: white;
   padding: 25px;
   border-radius: 10px;
@@ -87,4 +80,8 @@ body {
 .team-social a:hover {
   color: #0d6efd;
   transform: scale(1.2);
+}
+
+.navbar-nav a {
+  color: #fff;
 }
